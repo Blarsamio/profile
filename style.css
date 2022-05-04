@@ -1,0 +1,60 @@
+body {
+    font-family: 'Radio Canada', sans-serif;
+    background-color: #D885A3;
+    color: #7897AB;
+    display: block;
+    margin: 8px;
+    text-align: center;
+}
+h1,h2 {
+    color: #655D8A;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.img-circle{
+    size: 150px;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: #D885A3;
+    color: white;
+    border-radius: 10%;
+    border: 0 solid;
+}
+
+.card-white {
+    background-color: #F8ECD1;
+    padding: 80px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin: 20px 100px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: inherit;
+}
+
+@media (max-width: 720px){
+.container-normal {
+ width: 500px;
+ }
+}
+
+@media (max-width: 960px){
+.container-normal {
+ width: 700px;
+ }
+}
+
+a:link {
+    color:#7897AB;
+    text-transform: none;
+    text-decoration: none;
+}
